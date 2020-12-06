@@ -1,5 +1,5 @@
 //
-//  MonthCollectionLayout.swift
+//  WeekCollectionLayout.swift
 //  FantastiCal
 //
 //  Created by Michael Craun on 9/27/17.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class MonthCollectionLayout: UICollectionViewFlowLayout {
-
+class WeekCollectionLayout: UICollectionViewFlowLayout {
+    
     let innerSpace: CGFloat = 1.0
     let numberOfCellsOnRow: CGFloat = 7
     
